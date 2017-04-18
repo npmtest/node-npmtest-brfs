@@ -1,7 +1,10 @@
-# test coverage for  [brfs (v1.4.3)](https://github.com/substack/brfs)  [![npm package](https://img.shields.io/npm/v/npmtest-brfs.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-brfs) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-brfs.svg)](https://travis-ci.org/npmtest/node-npmtest-brfs)
+# npmtest-brfs
+
+#### test coverage for  [brfs (v1.4.3)](https://github.com/substack/brfs)  [![npm package](https://img.shields.io/npm/v/npmtest-brfs.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-brfs) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-brfs.svg)](https://travis-ci.org/npmtest/node-npmtest-brfs)
+
 #### browserify fs.readFileSync() static asset inliner
 
-[![NPM](https://nodei.co/npm/brfs.png?downloads=true)](https://www.npmjs.com/package/brfs)
+[![NPM](https://nodei.co/npm/brfs.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/brfs)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-brfs/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-brfs/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-brfs/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-brfs/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-brfs/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-brfs/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-brfs/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-brfs/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-brfs/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-brfs/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-brfs%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-brfs/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-brfs/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-brfs/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-brfs/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-brfs%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-brfs/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-brfs/build/test-report.html](https://npmtest.github.io/node-npmtest-brfs/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-brfs/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-brfs/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-brfs/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-brfs/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-brfs/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-brfs/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-brfs/build/screenCapture.npmPackageListing.svg)
 
@@ -28,7 +37,6 @@
 {
     "author": {
         "name": "James Halliday",
-        "email": "mail@substack.net",
         "url": "http://substack.net"
     },
     "bin": {
@@ -72,17 +80,14 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "mattdesl",
-            "email": "dave.des@gmail.com"
+            "name": "mattdesl"
         },
         {
-            "name": "substack",
-            "email": "substack@gmail.com"
+            "name": "substack"
         }
     ],
     "name": "brfs",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/substack/brfs.git"
